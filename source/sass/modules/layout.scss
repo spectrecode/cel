@@ -1,0 +1,25 @@
+#lienzoB_millon{
+  position: relative;
+  transition: all 0.35s ease-in-out;
+  section{
+    padding: 20px 0;
+    height: 500px;
+    background-color: steelblue;
+    &:last-child{
+      background-color: orange;
+    }
+    &:first-child{
+      margin-top: 55px;
+    }
+  }
+}
+#container{
+  position: relative;
+  transform: translateX(0);
+  transition: all 0.35s ease-in-out;
+  overflow: hidden;
+}
+
+//Secciones
+@import "sections/header";
+@import "sections/footer";
